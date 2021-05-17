@@ -10,7 +10,7 @@ public class PortalController {
 
 	@Autowired
 	private PortalService portalService;
-	
+
 	@GetMapping("/test")
 	public String test() {
 		return portalService.invoke();
