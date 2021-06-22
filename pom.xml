@@ -75,6 +75,13 @@
 
     <modules>
         <module>bwhome-portal-service</module>
+        <module>bwhome-portal-gateway</module>
+        <module>auth</module>
+        <module>bwhome-portal-auth</module>
+        <module>bwhome-portal-common</module>
+        <module>bwhome-portal-modules</module>
+        <module>bwhome-portal-visual</module>
+        <module>bwhome-portal-ui</module>
     </modules>
 
 </project>
