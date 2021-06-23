@@ -69,6 +69,7 @@
         <module>bwhome-portal-ui</module>
         <module>bwhome-portal-api</module>
         <module>bwhome-portal-auth</module>
+        <module>bwhome-portal-interview</module>
     </modules>
 
 </project>
