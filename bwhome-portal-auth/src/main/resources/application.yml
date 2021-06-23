@@ -1,0 +1,9 @@
+server:
+  port: 81
+spring:
+  application:
+    name: bwhome-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://62.234.30.21:8848
