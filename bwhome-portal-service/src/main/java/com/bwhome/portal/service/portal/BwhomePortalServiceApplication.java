@@ -9,8 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 @EnableFeignClients
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableFeignClients
 public class BwhomePortalServiceApplication {
 
     public static void main(String[] args) {
