@@ -11,7 +11,7 @@ public class TokenController {
     @Autowired
     private RemoteUserService remoteUserService;
 
-    @GetMapping("/userInfo")
+    @GetMapping("/user/info")
     public String userInfo(){
         return remoteUserService.getUserInfo();
     }

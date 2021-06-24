@@ -35,6 +35,11 @@
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.bwhome.portal</groupId>
+            <artifactId>bwhome-portal-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 
