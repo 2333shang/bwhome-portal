@@ -10,7 +10,3 @@ spring:
       config:
         server-addr: http://62.234.30.21:8848
         file-extension: yml
-    sentinel:
-      transport:
-        port: 8888
-        dashboard: http://www.cxm.link:8858

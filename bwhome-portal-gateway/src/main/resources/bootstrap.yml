@@ -10,5 +10,7 @@ spring:
       config:
         server-addr: http://62.234.30.21:8848
         file-extension: yml
-
-
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: http://localhost:8858

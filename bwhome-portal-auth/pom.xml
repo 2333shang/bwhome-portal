@@ -24,6 +24,7 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
 
+
         <dependency>
             <groupId>com.bwhome.portal</groupId>
             <artifactId>bwhome-portal-api-system</artifactId>
@@ -31,9 +32,10 @@
             <scope>compile</scope>
         </dependency>
 
+
         <dependency>
             <groupId>com.bwhome.portal</groupId>
-            <artifactId>bwhome-portal-common</artifactId>
+            <artifactId>bwhome-portal-common-core</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>

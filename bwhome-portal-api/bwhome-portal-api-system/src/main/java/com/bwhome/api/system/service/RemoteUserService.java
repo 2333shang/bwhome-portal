@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(name="bwhome-system",fallbackFactory = RemoteUserFallbackFactory.class)
 public interface RemoteUserService {
 
-    @GetMapping("/user/info")
+    @GetMapping("system/user/info")
     public String getUserInfo();
 }

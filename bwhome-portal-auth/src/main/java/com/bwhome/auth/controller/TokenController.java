@@ -1,18 +1,26 @@
 package com.bwhome.auth.controller;
 
-import com.bwhome.api.system.service.RemoteUserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+
+import bwhome.common.core.web.domain.AjaxResult;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TokenController {
 
-    @Autowired
-    private RemoteUserService remoteUserService;
+    public AjaxResult login(){
 
-    @GetMapping("/user/info")
-    public String userInfo(){
-        return remoteUserService.getUserInfo();
+        return AjaxResult.success();
     }
+
+    public AjaxResult logout(){
+
+        return AjaxResult.success();
+    }
+
+    public AjaxResult refreshToken(){
+
+        return AjaxResult.success();
+    }
+
+
 }

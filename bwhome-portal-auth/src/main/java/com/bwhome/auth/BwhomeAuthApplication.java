@@ -6,8 +6,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients(basePackages = "com.bwhome.api.system.service")
 @SpringBootApplication
-public class AuthApplication {
+public class BwhomeAuthApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AuthApplication.class, args);
+        SpringApplication.run(BwhomeAuthApplication.class, args);
+        System.out.println("认证中心启动成功");
     }
 }
