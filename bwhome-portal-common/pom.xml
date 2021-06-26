@@ -14,6 +14,7 @@
     <modules>
         <module>bwhome-portal-common-security</module>
         <module>bwhome-portal-common-core</module>
+        <module>bwhome-portal-common-redis</module>
     </modules>
 
     <dependencies>

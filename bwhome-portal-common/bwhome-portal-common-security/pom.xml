@@ -11,5 +11,12 @@
 
     <artifactId>bwhome-portal-common-security</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.bwhome.portal</groupId>
+            <artifactId>bwhome-portal-api-system</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

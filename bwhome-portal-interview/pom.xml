@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>bwhome-interview-leetcode</module>
-        <module>bwhome-basic-leetcode</module>
         <module>bwhome-interview-basic</module>
+        <module>bwhome-interview-websocket</module>
     </modules>
 
 

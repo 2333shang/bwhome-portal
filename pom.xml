@@ -18,6 +18,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
         <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>
+        <hutool-version>5.7.2</hutool-version>
     </properties>
 
     <dependencyManagement>
@@ -43,8 +44,18 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool-version}</version>
+        </dependency>
+    </dependencies>
+
 
     <build>
         <plugins>
@@ -70,6 +81,7 @@
         <module>bwhome-portal-api</module>
         <module>bwhome-portal-auth</module>
         <module>bwhome-portal-interview</module>
+        <module>bwhome-portal-register</module>
     </modules>
 
 </project>

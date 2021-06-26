@@ -1,4 +1,4 @@
-package com.cxm.controller;
+package cxm.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
