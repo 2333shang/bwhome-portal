@@ -9,12 +9,11 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 @EnableFeignClients
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableFeignClients
 public class BwhomePortalServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BwhomePortalServiceApplication.class, args);
+        System.out.println("系统服务启动成功");
     }
 
 }

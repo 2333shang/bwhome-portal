@@ -12,4 +12,11 @@
     <artifactId>bwhome-portal-api-system</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.bwhome.portal</groupId>
+            <artifactId>bwhome-portal-modules-system</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>

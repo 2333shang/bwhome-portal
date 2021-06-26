@@ -1,9 +1,0 @@
-server:
-  port: 80
-spring:
-  application:
-    name: bwhome-system
-  cloud:
-    nacos:
-      discovery:
-        server-addr: http://62.234.30.21:8848
