@@ -1,4 +1,4 @@
 package com.bwhome.register.service;
 
-public class RegisterService {
+public class SendMessageService {
 }
