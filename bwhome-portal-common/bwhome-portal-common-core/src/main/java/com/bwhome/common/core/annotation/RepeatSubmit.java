@@ -1,4 +1,4 @@
-package bwhome.common.core.annotation;
+package com.bwhome.common.core.annotation;
 
 import java.lang.annotation.*;
 

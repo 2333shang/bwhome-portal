@@ -1,4 +1,4 @@
-package bwhome.common.core.enums;
+package com.bwhome.common.core.enums;
 
 public enum HttpStatusEnum {
     SUCCESS(200),

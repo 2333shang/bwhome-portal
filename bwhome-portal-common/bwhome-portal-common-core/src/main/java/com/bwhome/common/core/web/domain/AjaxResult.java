@@ -1,6 +1,6 @@
-package bwhome.common.core.web.domain;
+package com.bwhome.common.core.web.domain;
 
-import bwhome.common.core.enums.HttpStatusEnum;
+import com.bwhome.common.core.enums.HttpStatusEnum;
 
 import java.util.HashMap;
 
@@ -10,6 +10,10 @@ public class AjaxResult extends HashMap<String, Object> {
     public static final String CODE_TAG = "code";
     public static final String RESULT_TAG = "result";
 
+    public static void main(String[] args) {
+        int i = 1;
+        System.out.println(i --);
+    }
 
     public AjaxResult() {
     }

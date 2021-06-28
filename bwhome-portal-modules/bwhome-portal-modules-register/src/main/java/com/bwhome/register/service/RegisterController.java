@@ -1,6 +1,6 @@
 package com.bwhome.register.service;
 
-import bwhome.common.core.web.domain.AjaxResult;
+import com.bwhome.common.core.web.domain.AjaxResult;
 import com.alibaba.fastjson.JSON;
 import com.bwhome.register.form.RegisterBody;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
