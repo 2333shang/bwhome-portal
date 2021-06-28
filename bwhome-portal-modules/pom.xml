@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>bwhome-portal-modules-system</module>
+        <module>bwhome-portal-modules-register</module>
+        <module>bwhome-portal-modules-email</module>
     </modules>
 
 

@@ -9,6 +9,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/bwhome-portal-interview/bwhome-basic-leetcode/pom.xml" />
+        <option value="$PROJECT_DIR$/bwhome-portal-register/pom.xml" />
+        <option value="$PROJECT_DIR$/bwhome-portal-service/pom.xml" />
       </set>
     </option>
   </component>
