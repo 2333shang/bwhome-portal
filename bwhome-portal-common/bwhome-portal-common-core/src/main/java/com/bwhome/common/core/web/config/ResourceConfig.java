@@ -15,6 +15,6 @@ public class ResourceConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(repeatSubmitInterceptor).addPathPatterns("/**");x
+        registry.addInterceptor(repeatSubmitInterceptor).addPathPatterns("/**");
     }
 }

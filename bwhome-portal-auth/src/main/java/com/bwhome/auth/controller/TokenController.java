@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TokenController {
 
     @GetMapping("/login")
-    @RepeatSubmit
     public AjaxResult login(){
+        int i = 1 / 0;
         return AjaxResult.success();
     }
 
