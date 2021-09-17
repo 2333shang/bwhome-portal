@@ -87,7 +87,7 @@
         <module>bwhome-portal-api</module>
         <module>bwhome-portal-auth</module>
         <module>bwhome-portal-interview</module>
-        <module>bwhome-portal-register</module>
+        <module>mqtt</module>
     </modules>
 
 </project>

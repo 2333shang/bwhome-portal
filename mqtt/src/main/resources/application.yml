@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  mqtt:
+    username:
+    password:
+    url: tcp://116.62.148.126:1883
+    client:
+      id: mqttId
+    default:
+      topic: topic
+    completionTimeout: 3000

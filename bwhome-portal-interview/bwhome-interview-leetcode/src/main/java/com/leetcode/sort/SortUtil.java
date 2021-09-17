@@ -143,6 +143,9 @@ public class SortUtil {
             quick_sort(s, i + 1, r);
         }
     }
+
+
+
     public static void main(String[] args) {
         SortUtil sortUtil = new SortUtil();
         Arrays.stream(sortUtil.quickSort(0 ,sortUtil.nums.length-1)).forEach(item->
